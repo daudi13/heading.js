@@ -1,0 +1,49 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 5rem;
+    margin: 20px 40px;
+    flex-direction: column;
+}
+
+.btn {
+    padding: 1.5rem 3rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    color: #fff;
+    margin-bottom: 20px;
+    transition: transform 0.5s;
+    background: #2e8b57;
+    
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+.intro {
+    font-size: 13px;
+    text-align: justify;
+    width: 500px;
+}
+
+.hidden {
+    opacity: 0;
+}
+
